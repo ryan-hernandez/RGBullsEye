@@ -13,6 +13,7 @@
 		FE01E7B223F4F51200BF25B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE01E7B123F4F51200BF25B2 /* Assets.xcassets */; };
 		FE01E7B523F4F51200BF25B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE01E7B423F4F51200BF25B2 /* Preview Assets.xcassets */; };
 		FE01E7B823F4F51200BF25B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE01E7B623F4F51200BF25B2 /* LaunchScreen.storyboard */; };
+		FE01E7C023F8661E00BF25B2 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01E7BF23F8661E00BF25B2 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE01E7B423F4F51200BF25B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE01E7B723F4F51200BF25B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE01E7B923F4F51200BF25B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE01E7BF23F8661E00BF25B2 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FE01E7AA23F4F50D00BF25B2 /* RGBullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				FE01E7BF23F8661E00BF25B2 /* ContentViewController.swift */,
 				FE01E7AB23F4F50D00BF25B2 /* AppDelegate.swift */,
 				FE01E7AD23F4F50D00BF25B2 /* SceneDelegate.swift */,
 				FE01E7AF23F4F50D00BF25B2 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE01E7C023F8661E00BF25B2 /* ContentViewController.swift in Sources */,
 				FE01E7AC23F4F50D00BF25B2 /* AppDelegate.swift in Sources */,
 				FE01E7AE23F4F50D00BF25B2 /* SceneDelegate.swift in Sources */,
 				FE01E7B023F4F50D00BF25B2 /* ContentView.swift in Sources */,
